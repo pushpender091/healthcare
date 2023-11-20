@@ -1,0 +1,59 @@
+a {
+    display: block
+}
+body {
+    
+    background-color: #343336;
+    color: whitesmoke;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gallery-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#photo-slider {
+    width: 50%;
+    height: 60%;
+}
+/* img {
+    width: 99%;
+    height:99%;
+} */
+
+#gal-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gal-pic {
+    width: 28em;
+    height: 28em;
+    padding: 10px;
+}
+
+ .card {
+    background-color: #343336;
+    color:whitesmoke;
+
+ }
+ .store-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+th {
+    height: 7em;
+    width: 13.5%;
+}
+.table-div {
+    width: 95%;
+    background-color: teal;
+}
